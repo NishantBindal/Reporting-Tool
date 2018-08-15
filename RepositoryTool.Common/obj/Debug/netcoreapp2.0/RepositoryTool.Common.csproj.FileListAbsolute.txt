@@ -1,0 +1,8 @@
+C:\Users\NIshant Bindal\source\repos\ReportingTool\RepositoryTool.Common\bin\Debug\netcoreapp2.0\RepositoryTool.Common.deps.json
+C:\Users\NIshant Bindal\source\repos\ReportingTool\RepositoryTool.Common\bin\Debug\netcoreapp2.0\RepositoryTool.Common.dll
+C:\Users\NIshant Bindal\source\repos\ReportingTool\RepositoryTool.Common\bin\Debug\netcoreapp2.0\RepositoryTool.Common.pdb
+C:\Users\NIshant Bindal\source\repos\ReportingTool\RepositoryTool.Common\obj\Debug\netcoreapp2.0\RepositoryTool.Common.csproj.CoreCompileInputs.cache
+C:\Users\NIshant Bindal\source\repos\ReportingTool\RepositoryTool.Common\obj\Debug\netcoreapp2.0\RepositoryTool.Common.AssemblyInfoInputs.cache
+C:\Users\NIshant Bindal\source\repos\ReportingTool\RepositoryTool.Common\obj\Debug\netcoreapp2.0\RepositoryTool.Common.AssemblyInfo.cs
+C:\Users\NIshant Bindal\source\repos\ReportingTool\RepositoryTool.Common\obj\Debug\netcoreapp2.0\RepositoryTool.Common.dll
+C:\Users\NIshant Bindal\source\repos\ReportingTool\RepositoryTool.Common\obj\Debug\netcoreapp2.0\RepositoryTool.Common.pdb
