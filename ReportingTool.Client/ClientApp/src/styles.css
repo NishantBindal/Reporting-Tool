@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+.float-right {
+  float: right;
+}
+.padding-top-botttom-30px {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.padding-15px{
+  padding:15px;
+}
+.float-left {
+  float: left;
+}
+.margin-10px {
+  margin: 10px;
+}
+.margin-15px {
+  margin: 15px 15px;
+}
+

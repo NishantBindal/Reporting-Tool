@@ -3,8 +3,14 @@ C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Api\bin\Debug\n
 C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Api\bin\Debug\netcoreapp2.0\ReportingTool.Api.runtimeconfig.dev.json
 C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Api\bin\Debug\netcoreapp2.0\ReportingTool.Api.dll
 C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Api\bin\Debug\netcoreapp2.0\ReportingTool.Api.pdb
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Api\bin\Debug\netcoreapp2.0\ReportingTool.DataAccessLayer.dll
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Api\bin\Debug\netcoreapp2.0\RepositoryTool.Common.dll
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Api\bin\Debug\netcoreapp2.0\ReportingTool.DataAccessLayer.pdb
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Api\bin\Debug\netcoreapp2.0\RepositoryTool.Common.pdb
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Api\obj\Debug\netcoreapp2.0\ReportingTool.Api.csprojResolveAssemblyReference.cache
 C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Api\obj\Debug\netcoreapp2.0\ReportingTool.Api.csproj.CoreCompileInputs.cache
 C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Api\obj\Debug\netcoreapp2.0\ReportingTool.Api.AssemblyInfoInputs.cache
 C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Api\obj\Debug\netcoreapp2.0\ReportingTool.Api.AssemblyInfo.cs
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Api\obj\Debug\netcoreapp2.0\ReportingTool.Api.csproj.CopyComplete
 C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Api\obj\Debug\netcoreapp2.0\ReportingTool.Api.dll
 C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Api\obj\Debug\netcoreapp2.0\ReportingTool.Api.pdb

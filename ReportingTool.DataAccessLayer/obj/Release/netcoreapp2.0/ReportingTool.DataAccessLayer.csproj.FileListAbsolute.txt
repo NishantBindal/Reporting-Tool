@@ -1,0 +1,14 @@
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.DataAccessLayer\bin\Release\netcoreapp2.0\ReportingTool.DataAccessLayer.deps.json
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.DataAccessLayer\bin\Release\netcoreapp2.0\ReportingTool.DataAccessLayer.runtimeconfig.json
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.DataAccessLayer\bin\Release\netcoreapp2.0\ReportingTool.DataAccessLayer.runtimeconfig.dev.json
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.DataAccessLayer\bin\Release\netcoreapp2.0\ReportingTool.DataAccessLayer.dll
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.DataAccessLayer\bin\Release\netcoreapp2.0\ReportingTool.DataAccessLayer.pdb
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.DataAccessLayer\bin\Release\netcoreapp2.0\RepositoryTool.Common.dll
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.DataAccessLayer\bin\Release\netcoreapp2.0\RepositoryTool.Common.pdb
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.DataAccessLayer\obj\Release\netcoreapp2.0\ReportingTool.DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.DataAccessLayer\obj\Release\netcoreapp2.0\ReportingTool.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.DataAccessLayer\obj\Release\netcoreapp2.0\ReportingTool.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.DataAccessLayer\obj\Release\netcoreapp2.0\ReportingTool.DataAccessLayer.AssemblyInfo.cs
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.DataAccessLayer\obj\Release\netcoreapp2.0\ReportingTool.DataAccessLayer.csproj.CopyComplete
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.DataAccessLayer\obj\Release\netcoreapp2.0\ReportingTool.DataAccessLayer.dll
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.DataAccessLayer\obj\Release\netcoreapp2.0\ReportingTool.DataAccessLayer.pdb

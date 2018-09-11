@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportingTool.DataAccessLay
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryTool.Common", "RepositoryTool.Common\RepositoryTool.Common.csproj", "{F336C095-7B15-41ED-8D16-5AD1FF49305E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportingTool.Auth", "ReportingTool.Auth\ReportingTool.Auth.csproj", "{C34B0F08-7DD3-44D8-9317-E6209E143F64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportingTool.Client", "ReportingTool.Client\ReportingTool.Client.csproj", "{CF43F5CB-648B-4A82-BD34-E576FAAAC96D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{F336C095-7B15-41ED-8D16-5AD1FF49305E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F336C095-7B15-41ED-8D16-5AD1FF49305E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F336C095-7B15-41ED-8D16-5AD1FF49305E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C34B0F08-7DD3-44D8-9317-E6209E143F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C34B0F08-7DD3-44D8-9317-E6209E143F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C34B0F08-7DD3-44D8-9317-E6209E143F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C34B0F08-7DD3-44D8-9317-E6209E143F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF43F5CB-648B-4A82-BD34-E576FAAAC96D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF43F5CB-648B-4A82-BD34-E576FAAAC96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF43F5CB-648B-4A82-BD34-E576FAAAC96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF43F5CB-648B-4A82-BD34-E576FAAAC96D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,62 @@
+<section class="view intro-2 hm-gradient">
+  <div class="full-bg-img">
+    <div class="container flex-center">
+      <div class="row flex-center pt-5 mt-3">
+        <div class="col-md-12 text-center text-md-left margins background-white">
+
+          <form class="needs-validation" novalidate>
+            <div class="form-row">
+              <div class="col-md-2">
+                <label for="validationTooltip01">Customer Name</label>
+                <app-type-head [data]="customers" [id]="'validationTooltip01'" [placeHolder]="'Customer Name'" [displayTextId]="searchVoucher.customerId" [required]="'true'" [validationMessage]="'Please provide a valid customer name.'" (onSelect)="selectCustomer($event)"></app-type-head>
+              </div>
+              <div class="col-md-2">
+                <label for="validationTooltip03">Item Category</label>
+                <app-type-head [data]="itemsCategories" [id]="'validationTooltip02'" [placeHolder]="'Item Category'" [displayTextId]="searchVoucher.itemCategoryId" [required]="'true'" [validationMessage]="'Please provide a valid item category.'" (onSelect)="selectItemCategory($event)"></app-type-head>
+              </div>
+              <div class="col-md-2">
+                <label for="validationTooltip03">Min Date</label>
+                <app-date-picker (onDateSelected)="onMinDateSelected($event)" [placeHolder]="'yyyy-mm-dd'" [displayText]="searchVoucher.minDate"></app-date-picker>
+              </div>
+              <div class="col-md-2">
+                <label for="validationTooltip04">Max Date</label>
+                <app-date-picker (onDateSelected)="onMaxDateSelected($event)" [placeHolder]="'yyyy-mm-dd'" [displayText]="searchVoucher.maxDate"></app-date-picker>
+              </div>
+              <div class="col-md-2">
+                <label for="validationTooltip05">Item</label>
+                <app-type-head [data]="items" [id]="'validationTooltip06'" [placeHolder]="'Item name'" [displayTextId]="searchVoucher.itemid" [required]="'false'" [validationMessage]="''" (onSelect)="selectItem($event)"></app-type-head>
+              </div>
+              <div class="col-md-2">
+                <label for="validationTooltip07">Min Amount</label>
+                <input type="text" class="form-control" id="validationTooltip08" placeholder="Amount" [(ngModel)]="searchVoucher.minAmount" name="amount" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid amount.
+                </div>
+              </div>
+              <div class="col-md-2">
+                <label for="validationTooltip09">Max Amount</label>
+                <input type="text" class="form-control" id="validationTooltip10" placeholder="Amount" [(ngModel)]="searchVoucher.maxAmount" name="amount" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid amount.
+                </div>
+              </div>
+              <div class="col-md-2">
+                <label></label>
+                <div>
+                  <button class="input-group-addon margin-10px" type="button" (click)="search()" ngbTooltip="Please press this button for search">
+                    <span class="fa fa-search"></span>
+                  </button>
+                  <button class="input-group-addon margin-10px" type="button" (click)="clearVoucher()">
+                    <span class="fa fa-eraser"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+          <app-grid-view [columns]="columns" [rowCount]="voucherCount" [dataRows]="dataRows" [addAction]="addAction"></app-grid-view>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<button (click)="downloadPdf()" class="btn btn-warning btn-sm">Download results</button>

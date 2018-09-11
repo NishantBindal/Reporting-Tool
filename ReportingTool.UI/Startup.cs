@@ -24,6 +24,24 @@ namespace ReportingTool.UI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddAuthentication(options =>
+            {
+                options.DefaultScheme = "Cookies";
+                options.DefaultChallengeScheme = "oidc";
+            })
+         .AddCookie("Cookies")
+         .AddOpenIdConnect("oidc", options =>
+         {
+             options.SignInScheme = "Cookies";
+
+             options.Authority = "http://localhost:63668/";
+             options.RequireHttpsMetadata = false;
+             options.ResponseType = "code id_token";
+             options.ClientId = "reporting_tool_ui";
+             options.ClientSecret = "secret";
+             options.SaveTokens = true;
+             //options.Scope.Add("reporting_tool_api");
+         });
             services.AddDbContext<ReportingTool.DataAccessLayer.EntityFramework.ReportingToolDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("ReportingTool")));
         }
@@ -45,7 +63,7 @@ namespace ReportingTool.UI
             }
 
             app.UseStaticFiles();
-
+            app.UseAuthentication();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

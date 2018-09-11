@@ -1,0 +1,11 @@
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Auth\bin\Debug\netcoreapp2.0\ReportingTool.Auth.deps.json
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Auth\bin\Debug\netcoreapp2.0\ReportingTool.Auth.runtimeconfig.json
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Auth\bin\Debug\netcoreapp2.0\ReportingTool.Auth.runtimeconfig.dev.json
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Auth\bin\Debug\netcoreapp2.0\ReportingTool.Auth.dll
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Auth\bin\Debug\netcoreapp2.0\ReportingTool.Auth.pdb
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Auth\obj\Debug\netcoreapp2.0\ReportingTool.Auth.csprojResolveAssemblyReference.cache
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Auth\obj\Debug\netcoreapp2.0\ReportingTool.Auth.csproj.CoreCompileInputs.cache
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Auth\obj\Debug\netcoreapp2.0\ReportingTool.Auth.AssemblyInfoInputs.cache
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Auth\obj\Debug\netcoreapp2.0\ReportingTool.Auth.AssemblyInfo.cs
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Auth\obj\Debug\netcoreapp2.0\ReportingTool.Auth.dll
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Auth\obj\Debug\netcoreapp2.0\ReportingTool.Auth.pdb

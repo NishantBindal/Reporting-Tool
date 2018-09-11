@@ -1,0 +1,56 @@
+
+<section class="view intro-2 hm-gradient">
+  <div class="full-bg-img">
+    <div class="container flex-center">
+      <div class="row flex-center pt-5 mt-3">
+        <div class="col-md-12 text-center text-md-left margins background-white">
+
+          <form class="needs-validation" novalidate>
+            <div class="form-row">
+              <div class="col-md-2">
+                <label for="validationTooltip01">Customer Name</label>
+                <app-type-head [data]="customers" [id]="'validationTooltip01'" [placeHolder]="'Customer Name'" [displayTextId]="voucher.customerId" [required]="'true'" [validationMessage]="'Please provide a valid customer name.'" (onSelect)="selectCustomer($event)"></app-type-head>
+              </div>
+              <div class="col-md-2">
+                <label for="validationTooltip02">Item Category</label>
+                <app-type-head [data]="itemsCategories" [id]="'validationTooltip02'" [placeHolder]="'Item Category'" [displayTextId]="voucher.itemCategoryId" [required]="'true'" [validationMessage]="'Please provide a valid item category.'" (onSelect)="selectItemCategory($event)"></app-type-head>
+              </div>
+              <div class="col-md-2">
+                <label for="validationTooltip03">Voucher Date</label>
+                <app-date-picker (onDateSelected)="onDateSelected($event)" [placeHolder]="'yyyy-mm-dd'" [displayText]="voucher.date"></app-date-picker>
+              </div>
+              <div class="col-md-2">
+                <label for="validationTooltip04">Item</label>
+                <app-type-head [data]="items" [id]="'validationTooltip05'" [placeHolder]="'Item name'" [displayTextId]="voucher.itemid" [required]="'false'" [validationMessage]="''" (onSelect)="selectItem($event)"></app-type-head>
+              </div>
+              <div class="col-md-2">
+                <label for="validationTooltip06">Amount</label>
+                <input type="text" class="form-control" id="validationTooltip07" placeholder="Amount" [(ngModel)]="voucher.amount" name="amount" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid amount.
+                </div>
+              </div>
+
+              <div class="col-md-2">
+                <label></label>
+                <div>
+                  <button class="input-group-addon margin-10px" type="button" (click)="saveCreditVoucher()" ngbTooltip="Please press this button for credit voucher">
+                    <span class="fa fa-plus"></span>
+                  </button>
+                  <button class="input-group-addon margin-10px" type="button" (click)="saveDebitVoucher()" ngbTooltip="Please press this button for debit voucher">
+                    <span class="fa fa-minus"></span>
+                  </button>
+                  <button class="input-group-addon margin-10px" type="button" (click)="clearVoucher()">
+                    <span class="fa fa-eraser"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+          <app-grid-view [columns]="columns" [rowCount]="voucherCount" [dataRows]="dataRows" [addAction]="addAction"></app-grid-view>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<button (click)="downloadPdf()" class="btn btn-warning btn-sm">Download results</button>

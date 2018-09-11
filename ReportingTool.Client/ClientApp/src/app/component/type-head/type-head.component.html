@@ -1,0 +1,8 @@
+<input id="{{id}}" type="text" class="form-control col-md-12" [ngbTypeahead]="search" (selectItem)="onSelectTypeahead($event.item)" [resultTemplate]="rt"
+   [inputFormatter]="formatter" placeholder="{{placeHolder}}" required="{{required}}" [(ngModel)]="displayText"/>
+<div class="invalid-tooltip">
+  {{validationMessage}}
+</div>
+<ng-template #rt let-r="result">
+  <ngb-highlight [result]="r.name"></ngb-highlight>
+</ng-template>

@@ -1,0 +1,6 @@
+<div class="input-group">
+  <input type="text" ngbDatepicker #d="ngbDatepicker" placeholder="{{placeHolder}}" [(ngModel)]="displayText" class="form-control col-md-12" [container]="body" (dateSelect)="onDateSelect($event)" />
+  <button class="input-group-addon" (click)="d.toggle()" type="button">
+    <span class="fa fa-calendar"></span>
+  </button>
+</div>

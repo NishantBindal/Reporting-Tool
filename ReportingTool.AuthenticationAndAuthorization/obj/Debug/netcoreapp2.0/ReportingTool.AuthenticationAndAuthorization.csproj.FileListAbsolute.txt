@@ -1,0 +1,12 @@
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.AuthenticationAndAuthorization\bin\Debug\netcoreapp2.0\ReportingTool.AuthenticationAndAuthorization.deps.json
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.AuthenticationAndAuthorization\bin\Debug\netcoreapp2.0\ReportingTool.AuthenticationAndAuthorization.runtimeconfig.json
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.AuthenticationAndAuthorization\bin\Debug\netcoreapp2.0\ReportingTool.AuthenticationAndAuthorization.runtimeconfig.dev.json
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.AuthenticationAndAuthorization\bin\Debug\netcoreapp2.0\ReportingTool.AuthenticationAndAuthorization.dll
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.AuthenticationAndAuthorization\obj\Debug\netcoreapp2.0\ReportingTool.AuthenticationAndAuthorization.csprojResolveAssemblyReference.cache
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.AuthenticationAndAuthorization\obj\Debug\netcoreapp2.0\ReportingTool.AuthenticationAndAuthorization.csproj.CoreCompileInputs.cache
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.AuthenticationAndAuthorization\obj\Debug\netcoreapp2.0\ReportingTool.AuthenticationAndAuthorization.AssemblyInfoInputs.cache
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.AuthenticationAndAuthorization\obj\Debug\netcoreapp2.0\ReportingTool.AuthenticationAndAuthorization.AssemblyInfo.cs
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.AuthenticationAndAuthorization\bin\Debug\netcoreapp2.0\ReportingTool.AuthenticationAndAuthorization.pdb
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.AuthenticationAndAuthorization\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.AuthenticationAndAuthorization\obj\Debug\netcoreapp2.0\ReportingTool.AuthenticationAndAuthorization.dll
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.AuthenticationAndAuthorization\obj\Debug\netcoreapp2.0\ReportingTool.AuthenticationAndAuthorization.pdb

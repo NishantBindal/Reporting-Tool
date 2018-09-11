@@ -1,0 +1,27 @@
+<div class="table-responsive col-md-12">
+  <table class="table table-hover table-bordered" id="grid-view">
+    <thead>
+      <tr scope="col">
+        <th *ngFor="let column of columns; let i = index" (click)="sortReqested(column,i)">{{column.name}}<span *ngIf="isAscendingSortOrder(column)" class="fa fa-angle-double-up"></span><span *ngIf="isDescendingSortOrder(column)" class="fa fa-angle-double-down"></span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr scope="row" *ngFor="let dataRow of pageData; let i = index">
+        <td *ngFor="let cellData of dataRow.data">{{cellData}}</td>
+        <td>
+          <div *ngIf="addAction">
+            <button class="input-group-addon margin-10px" type="button" (click)="deleteVoucher(i)">
+              <span class="fa fa-trash-o"></span>
+            </button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <app-table-paginator [rowCount]="rowCount" [itemsPerPage]="itemsPerPage" (pageChange)="refreshPageData($event)"></app-table-paginator>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+

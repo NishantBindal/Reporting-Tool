@@ -1,0 +1,11 @@
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Client\bin\Debug\netcoreapp2.0\ReportingTool.Client.deps.json
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Client\bin\Debug\netcoreapp2.0\ReportingTool.Client.runtimeconfig.json
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Client\bin\Debug\netcoreapp2.0\ReportingTool.Client.runtimeconfig.dev.json
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Client\bin\Debug\netcoreapp2.0\ReportingTool.Client.dll
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Client\obj\Debug\netcoreapp2.0\ReportingTool.Client.csprojResolveAssemblyReference.cache
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Client\obj\Debug\netcoreapp2.0\ReportingTool.Client.csproj.CoreCompileInputs.cache
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Client\obj\Debug\netcoreapp2.0\ReportingTool.Client.AssemblyInfoInputs.cache
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Client\obj\Debug\netcoreapp2.0\ReportingTool.Client.AssemblyInfo.cs
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Client\bin\Debug\netcoreapp2.0\ReportingTool.Client.pdb
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Client\obj\Debug\netcoreapp2.0\ReportingTool.Client.dll
+C:\Users\NIshant Bindal\source\repos\ReportingTool\ReportingTool.Client\obj\Debug\netcoreapp2.0\ReportingTool.Client.pdb
